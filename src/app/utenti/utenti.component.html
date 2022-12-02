@@ -1,0 +1,21 @@
+ <h2>Autori</h2>
+ <div class="overflow-auto">
+<div class="overflow-auto" *ngFor="let postAt of utenti">
+      <app-cardutenti [p]="postAt"></app-cardutenti>
+</div>
+</div>
+  <!-- <h2>Profilo di:</h2> -->
+<!--  -->
+  <!-- <div class="card-header"> -->
+<!-- </div> -->
+<!-- <div class="card-body"> -->
+  <!-- <h5 class="card-title">{{p.title}}</h5> -->
+  <!-- <p class="card-text">{{p.type}} <br> {{p.author}}<br> {{p.body}} </p> -->
+<!--  -->
+  <!-- <ng-content></ng-content> -->
+<!--  -->
+<!-- </div> -->
+
+
+
+<router-outlet></router-outlet>

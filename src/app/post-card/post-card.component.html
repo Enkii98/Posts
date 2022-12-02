@@ -1,0 +1,13 @@
+<div class="card-header d-flex align-items-center">
+    <h3 [innerHTML]="posttxt | marktext"></h3>{{p.id}}
+
+</div>
+<div class="card-body">
+  <h5 class="card-title">{{p.title}}</h5>
+  <p class="card-text">{{p.body}}</p>
+
+  <ng-content></ng-content>
+
+  <button (click)="elimina()">Elimina</button>
+
+</div>
